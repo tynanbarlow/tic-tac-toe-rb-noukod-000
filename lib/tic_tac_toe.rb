@@ -15,7 +15,7 @@ end
 
 def play(board)
   player_turn = 1
-  while player_turn != 10 do
+  while player_turn <= 9 do
     turn(board)
     player_turn += 1
     #if over?
